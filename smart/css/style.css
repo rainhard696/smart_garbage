@@ -1,0 +1,77 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    background-color: #161a1b;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0);
+    min-height: 100px;
+   
+}
+.navbar-brand {
+    color: snow;
+}
+.nav-link {
+color:cadetblue;
+
+}
+.nav-link:hover {
+  color:aquamarine;
+}
+.logo-brand {
+min-width:120px;
+max-width:120px;
+
+}
+
+
+.navbar-toggler {
+font-size:40px;
+color:aquamarine;
+
+}
+
+.navbar-toggler:focus {
+outline:none;
+}
+#cuerpo {
+background-color:cadetblue;
+
+min-height:800px;
+
+}
+.container-center {
+    background-color: cadetblue;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+/*seccion mapa*/
+#map {
+    height: 80%;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#floating-panel {
+    position:center;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.boton
+
+{
+    display: none;
+}
